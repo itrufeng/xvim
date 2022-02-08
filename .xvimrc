@@ -1,0 +1,42 @@
+" 搜索
+"" 搜索类
+nmap sc :xcmenucmd Open Quickly...<cr>
+"" 搜索文件
+nmap sf :xcmenucmd Open Quickly...<cr>
+"" 搜索符号
+nmap ss :xcmenucmd Open Quickly...<cr>
+"" 搜索最近文件
+nmap se :xcmenucmd Show Previous Histroy<cr>
+
+" 跳转
+"" 去定义
+nmap gd :xcmenucmd Jump to Definition<cr>
+"" 去实现
+nmap gi :xcmenucmd Jump to Definition<cr>
+"" 去使用
+nmap gu :xcmenucmd Find Call Hierarchy<cr>
+"" 去后退
+nmap gb :xcmenucmd Go Back<cr>
+"" 去向前
+nmap gf :xcmenucmd Go Forward<cr>
+
+" 移动
+"" 上移动
+nmap <A-k> :xcmenucmd Move Line Up<cr>
+"" 下移动
+nmap <A-j> :xcmenucmd Move Line Down<cr>
+"" 左移动
+nmap <A-h> :xcmenucmd Shift Left<cr>
+"" 右移动
+nmap <A-l> :xcmenucmd Shift Right<cr>
+
+" 重构
+"" 重命名
+nmap \rr :xcmenucmd Rename...<cr>
+"" 提出常量
+nmap \rc :xcmenucmd Extract to Variable<cr>
+"" 提出变量
+nmap \rv :xcmenucmd Extract to Variable<cr>
+"" 格式化代码
+nmap \rfc :xcmenucmd Re-Indent<cr>
+
