@@ -88,7 +88,7 @@ ln -s ~/.xvim/.xvimrc ~/.xvimrc
       <td>l is right in vim</td>
     </tr>
     <tr>
-      <td rowspan=4>重构</td>
+      <td rowspan=5>重构</td>
       <td>重命名</td>
       <td>&lt;leader&gt;rr</td>
       <td>`r`efactor `r`ename</td>
@@ -102,6 +102,11 @@ ln -s ~/.xvim/.xvimrc ~/.xvimrc
       <td>提出变量</td>
       <td>&lt;leader&gt;rv</td>
       <td>`r`efactor introduce `v`ariable</td>
+    </tr>
+    <tr>
+      <td>实现Protocol</td>
+      <td>&lt;leader&gt;ri</td>
+      <td>`r`efactor implement protocol</td>
     </tr>
     <tr>
       <td>格式化代码</td>

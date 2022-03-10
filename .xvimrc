@@ -37,6 +37,8 @@ nmap \rr :xcmenucmd Rename...<cr>
 nmap \rc :xcmenucmd Extract to Variable<cr>
 "" 提出变量
 nmap \rv :xcmenucmd Extract to Variable<cr>
+"" 实现Protocol
+nmap \ri :xcmenucmd Add Missing Protocol Requirements<cr>
 "" 格式化代码
 nmap \rfc :xcmenucmd Re-Indent<cr>
 
